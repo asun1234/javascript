@@ -8,7 +8,7 @@
     "install:config:base": "cd packages/eslint-config-airbnb-base && npm prune && npm install",
     "test": "npm run --silent test:config && npm run --silent test:config:base",
     "test:config": "cd packages/eslint-config-airbnb; npm test",
-    "test:config:base": "cd packages/eslint-config-airbnb-base; npm test",
+    "test:config:base": "cd packages/eslint-config-airbnb-base; npm test"
   },
   "repository": {
     "type": "git",
